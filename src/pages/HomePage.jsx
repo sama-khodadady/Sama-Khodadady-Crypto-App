@@ -4,11 +4,11 @@ import Pagination from "components/modules/Pagination";
 
 function HomePage() {
   return (
-    <>
+    <div style={{ minHeight: "100vh" }}>
       <Search />
       <TableCoin />
       <Pagination />
-    </>
+    </div>
   );
 }
 

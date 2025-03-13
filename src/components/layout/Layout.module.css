@@ -1,7 +1,3 @@
-.layout {
-  min-height: 100vh;
-}
-
 .layout .header {
   display: flex;
   align-items: center;
