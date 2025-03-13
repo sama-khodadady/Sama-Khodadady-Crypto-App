@@ -29,7 +29,7 @@
   font-size: 1.1rem;
 }
 
-.table tbody tr:hover{
+.table tbody tr:hover {
   background-color: var(--color-CharcoalBlue);
 }
 
