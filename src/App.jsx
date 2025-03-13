@@ -4,11 +4,11 @@ import CoinsProvider from "src/context/CoinsContext";
 
 function App() {
   return (
-    <Layout>
-      <CoinsProvider>
+    <CoinsProvider>
+      <Layout>
         <Router />
-      </CoinsProvider>
-    </Layout>
+      </Layout>
+    </CoinsProvider>
   );
 }
 
