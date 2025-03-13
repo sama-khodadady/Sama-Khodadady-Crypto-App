@@ -35,6 +35,6 @@
 ## نتیجه‌گیری
 
 ## دمو پروژه
-شما می‌توانید دمو پروژه را در  [Demo](sama-khodadady-crypto-app.vercel.app
+شما می‌توانید دمو پروژه را در  [Demo](sama-khodadady-crypto-app.vercel.app/
 ) مشاهده کنید.
 </div>
