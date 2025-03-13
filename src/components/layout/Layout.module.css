@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-blue);
+  padding: 10px 20px;
+  margin-bottom: 150px;
+  border-radius: 10px;
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--color-blue);
+  padding: 20px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+@media (max-width: 425px) {
+  .header {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,99 @@
+.coin {
+  min-height: 100vh;
+}
+
+.coin .details {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+}
+
+.coin .details .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 260px;
+  height: 550px;
+}
+
+.coin .details .sidebar img {
+  width: 250px;
+  height: 250px;
+}
+
+.coin .details .sidebar div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin .details .sidebar button {
+  width: 150px;
+  padding: 10px;
+  background: none;
+  color: var(--color-white);
+  font-weight: bold;
+  border-radius: 15px;
+  border: 1px solid var(--color-blue);
+  margin-top: 4rem;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.coin .details .sidebar a {
+  width: 150px;
+  padding: 7px;
+  font-size: 14px;
+  text-align: center;
+  background: none;
+  color: var(--color-white);
+  font-weight: bold;
+  border-radius: 15px;
+  border: 1px solid var(--color-blue);
+  margin-top: 1rem;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.coin .details .sidebar button:hover,
+.coin .details .sidebar a:hover {
+  background-color: var(--color-blue);
+}
+
+.coin .details .sidebar button:active,
+.coin .details .sidebar a:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 425px) {
+  .coin {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% -20px);
+    margin: 0 10px;
+  }
+  .coin .details {
+    flex-direction: column;
+  }
+  .coin .details .sidebar {
+    width: 100%;
+    height: fit-content;
+  }
+  .coin .details .sidebar div {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .coin .details .sidebar img {
+    width: 150px;
+    height: 150px;
+  }
+  .coin .details .sidebar {
+    display: flex;
+  }
+  .coin .details .sidebar button {
+    margin-top: 20px;
+  }
+}

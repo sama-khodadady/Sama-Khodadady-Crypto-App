@@ -1,0 +1,50 @@
+:root {
+  --color-richBlack: #131315;
+  --color-white: #fff;
+  --color-CharcoalBlue: #23272f;
+  --color-CadetGray: #9fa6b7;
+  --color-MintGreen: #57bc7c;
+  --color-RustyRed: #d33636;
+  --color-blue: #3874ff;
+  --color-EerieBlack: #18181ce6;
+  --color-Black: #18181cdb;
+  --color-PayneGrey: #404042;
+  --color-RasinBlack: #23242e;
+  --color-MidnightBlack: #22262e;
+  --color-EerieBlack: #18181c;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 10px;
+  color: var(--color-white);
+  background-color: var(--color-richBlack);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
